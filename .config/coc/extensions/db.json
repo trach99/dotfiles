@@ -1,0 +1,7 @@
+{
+  "extension": {
+    "coc-clangd": {
+      "disabled": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+2021/08/13-22:48:59.855 7b3b Reusing MANIFEST /home/austin/.config/streamlink-twitch-gui/Default/Local Storage/leveldb/MANIFEST-000001
+2021/08/13-22:48:59.856 7b3b Recovering log #3
+2021/08/13-22:48:59.856 7b3b Reusing old log /home/austin/.config/streamlink-twitch-gui/Default/Local Storage/leveldb/000003.log 
+2021/08/13-23:40:13.563 7b3d Level-0 table #5: started
+2021/08/13-23:40:13.622 7b3d Level-0 table #5: 15111 bytes OK
+2021/08/13-23:40:13.646 7b3d Delete type=0 #3

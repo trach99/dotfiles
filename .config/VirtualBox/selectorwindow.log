@@ -1,0 +1,15 @@
+00:00:00.144758 VirtualBox GUI VM Selector Window 6.1.26 r145957 linux.amd64 (Jul 29 2021 12:15:28) release log
+00:00:00.144761 Log opened 2021-08-18T12:01:02.072036000Z
+00:00:00.144761 Build Type: release
+00:00:00.144766 OS Product: Linux
+00:00:00.144767 OS Release: 5.13.10-arch1-1
+00:00:00.144768 OS Version: #1 SMP PREEMPT Thu, 12 Aug 2021 21:59:14 +0000
+00:00:00.144823 DMI Product Name: Nitro AN515-52
+00:00:00.144832 DMI Product Version: V1.19
+00:00:00.144846 Firmware type: UEFI
+00:00:00.146140 Secure Boot: Disabled
+00:00:00.146257 Host RAM: 7794MB (7.6GB) total, 5089MB (4.9GB) available
+00:00:00.146262 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.146262 Process ID: 7276
+00:00:00.146263 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.146311 Qt version: 5.15.2

@@ -1,0 +1,55 @@
+00:00:00.022772 main     VirtualBox XPCOM Server 6.1.26 r145957 linux.amd64 (Jul 29 2021 12:15:28) release log
+00:00:00.022779 main     Log opened 2021-08-18T11:53:31.067126000Z
+00:00:00.022781 main     Build Type: release
+00:00:00.022788 main     OS Product: Linux
+00:00:00.022791 main     OS Release: 5.13.10-arch1-1
+00:00:00.022794 main     OS Version: #1 SMP PREEMPT Thu, 12 Aug 2021 21:59:14 +0000
+00:00:00.022858 main     DMI Product Name: Nitro AN515-52
+00:00:00.022877 main     DMI Product Version: V1.19
+00:00:00.022889 main     Firmware type: UEFI
+00:00:00.025270 main     Secure Boot: Disabled
+00:00:00.025378 main     Host RAM: 7794MB (7.6GB) total, 6846MB (6.6GB) available
+00:00:00.025402 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.025404 main     Process ID: 4735
+00:00:00.025405 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.029877 main     IPC socket path: /tmp/.vbox-austin-ipc/ipcd
+00:00:00.172376 nspr-2   VirtualBox: object creation starts
+00:00:00.172550 nspr-2   Home directory: '/home/austin/.config/VirtualBox'
+00:00:00.199229 nspr-2   Loading settings file "/home/austin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.207680 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.207998 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.227565 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.229069 nspr-2   HostDnsMonitor: initializing
+00:00:00.229637 nspr-2   NAT: resolv.conf: nameserver 192.168.0.1
+00:00:00.229680 nspr-2   HostDnsMonitor: updating information
+00:00:00.229712 nspr-2   HostDnsMonitor: old information
+00:00:00.229719 nspr-2     no server entries
+00:00:00.229726 nspr-2     no domain set
+00:00:00.229732 nspr-2     no search string entries
+00:00:00.229738 nspr-2   HostDnsMonitor: new information
+00:00:00.229744 nspr-2     server 1: 192.168.0.1
+00:00:00.229751 nspr-2     domain: www.tendawifi.com
+00:00:00.229758 nspr-2     search string 1: www.tendawifi.com
+00:00:00.246126 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.326825 nspr-2   Loading settings file "/home/austin/VirtualBox VMs/windows7/windows7.vbox" with version "1.15-linux"
+00:00:00.328667 nspr-2   VirtualBox: object created
+00:00:05.780014 nspr-2   Launched VM: 1879052896 pid: 4790 (0x12b6) frontend: GUI/Qt name: windows7
+00:00:06.911830 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:10.527242 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:10.536979 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:04:55.831448 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:04:55.838633 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:05:48.613480 nspr-6   Saving settings file "/home/austin/VirtualBox VMs/windows7/windows7.vbox" with version "1.15-linux"
+00:05:48.747802 nspr-5   Saving settings file "/home/austin/VirtualBox VMs/windows7/windows7.vbox" with version "1.15-linux"
+00:18:25.186831 nspr-4   Saving settings file "/home/austin/VirtualBox VMs/windows7/windows7.vbox" with version "1.15-linux"
+00:18:27.388210 nspr-5   Saving settings file "/home/austin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:27.475534 nspr-5   Saving settings file "/home/austin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:27.542886 nspr-2   Saving settings file "/home/austin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:27.595002 nspr-5   Saving settings file "/home/austin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:33.153913 main     VirtualBox: object deletion starts
+00:18:33.153989 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/austin/VirtualBox VMs/windows7/windows7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:18:33.154626 main     HostDnsMonitor: shutting down ...
+00:18:33.160730 main     HostDnsMonitor: shut down
+00:18:33.197322 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:18:38.174142 main     {00007f9574019700} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:18:38.174698 main     VirtualBox: object deleted

@@ -1,0 +1,23 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/zip=org.gnome.FileRoller.desktop
+x-scheme-handler/msteams=teams.desktop
+application/pdf=org.pwmt.zathura.desktop
+image/jpeg=mirage.desktop
+text/plain=gvim.desktop
+
+[Added Associations]
+text/plain=vim.desktop;nvim.desktop;gvim.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/pdf=google-chrome.desktop;
+text/markdown=gvim.desktop;
+text/x-scss=gvim.desktop;
+application/x-yaml=gvim.desktop;
+image/jpeg=mirage.desktop;wine-extension-jpe.desktop;google-chrome.desktop;
+image/png=mirage.desktop;google-chrome.desktop;sxiv.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=playonlinux-Microsoft Word 2016.desktop;
+image/vnd.microsoft.icon=mirage.desktop;
