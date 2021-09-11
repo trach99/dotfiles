@@ -132,6 +132,12 @@ bindsym $mod+p exec --no-startup-id /home/austin/sh/picomtoggle
 bindsym Ctrl+y exec --no-startup-id picom-trans -c -5
 bindsym Ctrl+u exec --no-startup-id picom-trans -c +5
 
+# Media player controls(bluetooth headset)
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
 # focus the child container
 #bindsym $mod+d focus child
 
